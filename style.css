@@ -1,0 +1,16 @@
+/* added space background for more color */
+body {
+  background-image: url(https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60https://www.gettyimages.com/detail/photo/sunrise-in-space-royalty-free-image/908785218);
+  overflow-x: hidden;
+}
+
+/* Changes the background so the image was not showing through */
+nav {
+  background-color: #f0f2f3;
+  overflow-x: hidden;
+}
+
+.card-body {
+  padding-left: 0px;
+  padding-right: 0px;
+}

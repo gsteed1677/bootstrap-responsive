@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Linking bootstrap and other style sheets so the nav bar works -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -11,39 +13,85 @@
     />
     <link rel="stylesheet" href="portfolio.html" />
     <link rel="stylesheet" href="contact.html" />
+    <link rel="stylesheet" href="style.css" />
+    
     <title>Bootstrap HW 2</title>
   </head>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Garrett Steed</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+  
+  <body>
+    <!-- Nav bar created and colored -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand" href="index.html">Garrett Steed</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+      </div>
+    </nav>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="contact.html"
-            >Contact <span class="sr-only">(current)</span></a
-          >
+          <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
         </li>
+      </ul>
     </div>
-  </nav>
-
-  <body>
-  <img src="https://images.unsplash.com/photo-1534614971-6be99a7a3ffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="Not really me">
+    </nav>
+    <div class="row">
+      <div class="col-md-1"></div>>
+      <div class="col-md-10">
+        <div class="card">
+          <div class="card-header">
+            <h4>About Me</h4>
+          </div>
+          <section class="card-body">
+            <img
+              src="https://images.unsplash.com/photo-1534614971-6be99a7a3ffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+              alt="Not really me" width=250px;>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut cum commodi sint! Sunt unde nulla eos
+              dignissimos iure incidunt nihil aut praesentium asperiores, quae nisi recusandae aperiam doloremque nostrum
+              modi perspiciatis illo magni nam? Adipisci soluta officia sed rem cupiditate sequi recusandae, pariatur,
+              consequuntur totam rerum architecto atque. Ab vel nesciunt ipsam, dolor est officia ipsum accusamus culpa rem,
+              nostrum dolore magnam quas. Blanditiis vitae eaque eligendi similique et ea accusantium fugit ipsam. Laborum
+              voluptas suscipit cumque similique recusandae maiores quia nisi corporis quaerat ducimus. Cumque rerum, sint
+              officia blanditiis esse aperiam labore eveniet, similique dolor quaerat consequuntur quibusdam. Incidunt
+              soluta vitae perspiciatis ea. In neque quae id, aut velit eos facere quo architecto nobis, tenetur deleniti
+              dignissimos distinctio dolor odio? Harum molestiae eligendi doloremque in nostrum quaerat quibusdam beatae.
+              Expedita quaerat, exercitationem dolorem doloribus deleniti saepe, deserunt voluptatibus, natus quo alias
+              nostrum neque. Cum aliquid laudantium ut dignissimos ipsam expedita quo nihil corrupti provident sit? Dolore
+              inventore voluptatum cum repellat ea enim hic maxime aspernatur doloremque sint, amet labore rerum unde eum
+              natus sapiente beatae nemo! A maiores iusto quia aliquam earum, quasi libero omnis ea maxime! Aliquam, beatae
+              consectetur voluptate libero a nemo fugiat quis ipsa velit ea saepe quidem repellendus sunt corporis explicabo
+              illum eaque repudiandae officia aspernatur itaque nesciunt dolore rerum. Corrupti quidem earum corporis. Hic
+              ex aspernatur explicabo, unde cum omnis voluptates quas reiciendis, commodi tempora veritatis, optio non
+              obcaecati ut? Nulla, velit quia aliquam commodi esse maxime atque, asperiores harum, provident architecto sed
+              consequatur.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+    </div>
   </body>
 </html>
