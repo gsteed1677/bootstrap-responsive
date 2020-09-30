@@ -10,11 +10,27 @@ nav {
   overflow-x: hidden;
 }
 
+/* added coloring to the header of each page to work with theme */
 h4 {
   color: #aed9ee;
 }
-/* padding to help with centering issue */
-/* .card-body {
-  padding-left: 0px;
-  padding-right: 0px;
-} */
+/* added margin so the boxes were not up against the nav bar */
+
+.card {
+  margin-top: 5rem;
+}
+
+.notme {
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+p {
+  padding: 10px;
+  margin: 10px;
+}
+
+footer {
+  text-align: center;
+}
