@@ -1,6 +1,6 @@
 /* added space background for more color */
 body {
-  background-color: azure;
+  background-color: black;
   overflow-x: hidden;
 }
 
@@ -12,7 +12,7 @@ nav {
 
 /* added coloring to the header of each page to work with theme */
 h4 {
-  color: #aed9ee;
+  color: #72a6c2;
 }
 /* added margin so the boxes were not up against the nav bar */
 
@@ -29,6 +29,7 @@ h4 {
 p {
   padding: 10px;
   margin: 10px;
+  color: #475180;
 }
 
 footer {
