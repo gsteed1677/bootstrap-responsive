@@ -34,3 +34,14 @@ p {
 footer {
   text-align: center;
 }
+/* added margin and padding for a cleaner view */
+.img-fluid {
+  width: 350px;
+  height: 350px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+#center {
+  margin: auto;
+}
